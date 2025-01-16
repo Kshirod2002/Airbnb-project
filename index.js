@@ -8,9 +8,7 @@ main().then(() => {
     console.log(err);
 });
 
-async function main() {
-await mongoose.connect('mongodb+srv://swainkunal164:swa123@cluster0.17cfh.mongodb.net/wondertext');
-}
+
 
 const initDB = async () => {
     try {
